@@ -1,0 +1,310 @@
+.navbar{
+    background-color:grey;
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.navbar a{
+    float:left;
+    padding:15px;
+    color: black;
+    text-decoration:none;
+    font-size:25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.first-page{
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url("front.jpg");
+}
+
+h1{
+    color: white;
+    font-family: cursive;
+    font-size: 78px;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+h1:hover{
+    color: gainsboro;
+}
+
+h2{
+    color: yellow;
+    margin-left: 1000px;
+    margin-top: 230px;
+}
+
+h2 span{
+    margin-top: 60px;
+}
+
+.change:after{
+    content: '';
+    animation: changetext 10s infinite linear; color: white; text-shadow: 2px 1px 5px yellow;
+   }
+   
+   @keyframes changetext {
+    0%{content: 'Wear Mask';}
+    25%{content: 'Avoid Social gatherings';}
+    50%{content: 'Keep calm';}
+    75%{content: 'Maintain distance';}
+    100%{content: 'Use sanitizer';}
+    
+   }
+/*about us*/
+
+.aboutUs{
+    height: 200px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.aboutUs .two{
+    color: black;
+    margin-top: -60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.aboutUs p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.aboutUs button{
+    border-radius: 2px black;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    font-family: cursive;
+}
+
+/*menu*/ 
+
+.menu{
+    height: 500px;
+    margin-top: 180px;
+}
+
+.menu .one{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+img{
+    padding-top: 100px;
+}
+
+.row1{
+    margin-top: -60px;
+    display: flex;
+}
+  
+  /* Create three equal columns that sits next to each other */
+.column{
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.column .img{
+    border-radius: 20px;
+}
+
+.row1 .column .two{
+    height: 323px;
+}
+
+.row2{
+    margin-top: -25px;
+    display: flex;
+}
+
+.column2{
+    flex: 33.33%;
+    padding: 5px;
+    height: 323px;
+}
+
+.row2 .column2 .five{
+    height: 317px;
+}
+
+.row2 .column2 .six{
+    height: 317px;
+}
+
+.row2 .column2 .seven{
+    height: 317px;
+}
+
+.row2 .column2 .eight{
+    height: 317px;
+}
+
+.name{
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/*footer*/
+
+.footer{
+    background-image: linear-gradient(white,grey, grey, black);
+    background-color: black;
+    height: 400px;
+    margin-top: 700px;
+}
+
+.footer .four{
+    color: blac;
+    margin-top: 500px;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 560px;
+    font-weight: bold;
+}
+
+form{
+    align-content: center;
+    margin-top: 30px;
+    margin-left: 520px;
+}
+
+form label{
+    color:  black;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+form input{
+    width: 200px;
+    height: 15px;
+    margin-left: 20px;
+    padding: 3px;
+}
+
+.footer img{
+    margin-top: -100px;
+}
+
+/*SOCIAL MEDIA ICONS*/
+
+.social{
+    margin-top: -15px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    height: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 13px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .button{
+      align-items: right;
+      background-color: white;
+      color: black;
+      width: 130px;
+      height: 30px;
+      margin-left: 600px;
+  }
+
+  .button:hover{
+      opacity: 0.7;
+  }
+
+  #contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: black;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+            
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
